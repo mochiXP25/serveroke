@@ -1,0 +1,44 @@
+#report_content{
+    display: grid;
+    background-color: lemonchiffon;
+    border-radius: 0 0 15px 15px;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: auto;
+
+}
+.top{
+    height: 2rem;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 8fr 1fr 0.2fr;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 15px 15px 0 0;
+    padding-bottom: 2rem;
+}
+.server{
+    padding: 25px 0;
+    font-size: 24px;
+    margin-left: 1rem;
+}
+.server-name{
+    font-size: 1.5rem;
+    grid-column: 2/3;
+}
+.server-status{
+    grid-column: 4/5;
+    font-size: 1.5rem;
+}
+p{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+}
+.UP{
+    background-color: green;
+}
+.DOWN{
+    background-color: red;
+}
